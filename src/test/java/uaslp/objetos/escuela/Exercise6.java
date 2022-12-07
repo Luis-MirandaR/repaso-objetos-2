@@ -3,6 +3,7 @@ package uaslp.objetos.escuela;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 public class Exercise6 {
 
@@ -24,5 +25,35 @@ public class Exercise6 {
         assertThat(Dependencia1.class).isInterface();
         assertThat(Dependencia2.class).isInterface();
         assertThat(Dependencia3.class).isInterface();
+    }
+
+    @Test
+    public void AEqualToB(){
+        //Given
+        Dependencia1 dependencia1;
+        Dependencia2 dependencia2;
+        Dependencia3 dependencia3;
+
+        //When
+
+
+        //Then
+    }
+    @Test
+    public void ASmallerThanB(){
+        //Given
+
+        //When
+
+        //Then
+    }
+
+    @Test
+    public void ABiggerThanB(){
+        //Given
+
+        //When
+
+        //Then
     }
 }

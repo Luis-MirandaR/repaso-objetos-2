@@ -66,5 +66,4 @@ public class Exercise4 {
         Assertions.assertSame(direccion1, direccion3);
         Assertions.assertTrue(Modifier.isPrivate(constructorModifiers));
     }
-
 }
